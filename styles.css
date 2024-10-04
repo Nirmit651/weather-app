@@ -1,0 +1,86 @@
+body {
+    font-family: "Nunito", sans-serif, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+#searchInput {
+    width: 200px;
+    height: 20px;
+    border: solid 1px black;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.current-weather {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+#current-description {
+    margin: 0px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#current-location {
+    margin: 0px;
+}
+
+.weather-info {
+    display: flex;
+}
+
+.temperature-container {
+    display: flex;
+}
+
+.weather-details > p {
+    margin: 0px;
+    font-weight: bold;
+}
+
+#temp {
+    font-size: 150px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+p#unit {
+    font-size: 20px;
+}
+
+.weather-details {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 40px 40px 40px;
+    justify-items: start;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+#weekly-weather-header {
+    margin-bottom: 0px;
+}
+
+.daily-item {
+    border-bottom: solid 1px black;
+    display: grid;
+    grid-template-columns: 64px 160px 128px 96px;
+}

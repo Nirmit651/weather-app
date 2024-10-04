@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Weather</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <script defer src="scripts.js"></script>
+</head>
+<body>
+
+    <div class="search-container">
+        <img src="search-icon.webp">
+        <input type="text" id="searchInput" placeholder="Search for a city...">
+    </div>
+
+    <div class="current-weather">
+        <div class="general-current-weather">
+            <p id="current-description"></p>
+            <h1 id="current-location"></h1>
+            <div class="weather-info">
+                <div class="temperature-container">
+                    <p id="temp"></p>
+                    <p id="unit"></p>
+                </div>
+                <div class="weather-details">
+                    <p id="feels-like"></p>
+                    <p id="chance-of-rain"></p>
+                    <p id="humidity"></p>
+                    <p id="sunrise"></p>
+                    <p id="sunset"></p>
+                    <p id="visibility"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h1 id="weekly-weather-header">15 Day Forecast</h1>
+    
+    <div class="weekly-weather">
+    
+
+    </div>
+</body>
+</html>
